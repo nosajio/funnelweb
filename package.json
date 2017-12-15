@@ -6,7 +6,15 @@
   "repository": "https://github.com/nosajio/funnelweb",
   "author": "Jason Howmans <jason@nosaj.io>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon run.js"
+  },
   "dependencies": {
-    "phantomjs-prebuilt": "^2.1.16"
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "phantom": "^4.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.1"
   }
 }
