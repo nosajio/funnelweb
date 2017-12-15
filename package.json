@@ -1,0 +1,12 @@
+{
+  "name": "funnel-web",
+  "version": "2.0.0",
+  "description": "A configurable web crawler",
+  "main": "run.js",
+  "repository": "https://github.com/nosajio/funnelweb",
+  "author": "Jason Howmans <jason@nosaj.io>",
+  "license": "MIT",
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
